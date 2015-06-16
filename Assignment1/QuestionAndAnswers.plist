@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>In which continent is the Atacama Desert?</key>
+	<array>
+		<string>Asia</string>
+		<string>Europe</string>
+		<string>North America</string>
+		<string>South America</string>
+		<string>South America</string>
+	</array>
+	<key>What is the capital of Australia?</key>
+	<array>
+		<string>Canberra</string>
+		<string>Melbourne</string>
+		<string>Perth</string>
+		<string>Sydney</string>
+		<string>Canberra</string>
+	</array>
+	<key>Which is the smallest state in USA ?</key>
+	<array>
+		<string>Idaho</string>
+		<string>New Jersey</string>
+		<string>Rhode Island</string>
+		<string>Vermont</string>
+		<string>Rhode Island</string>
+	</array>
+	<key>Which two countries make up the Iberian peninsula ?</key>
+	<array>
+		<string>Argentina and Chile</string>
+		<string>Greece and Turkey</string>
+		<string>Norway and Sweden</string>
+		<string>Portugal and Spain</string>
+		<string>Portugal and Spain</string>
+	</array>
+	<key>The Sargasso Sea is parth of which ocean ? </key>
+	<array>
+		<string>Arctic</string>
+		<string>Atlantic</string>
+		<string>Indian</string>
+		<string>Pacific</string>
+		<string>Atlantic</string>
+	</array>
+	<key>Las Ramblas is a popular tourist area in which Spanish city ?</key>
+	<array>
+		<string>Barcelona</string>
+		<string>Granada</string>
+		<string>Seville</string>
+		<string>Valencia</string>
+		<string>Barcelon</string>
+	</array>
+	<key>In which US state is the Grand Canyon National Park ? </key>
+	<array>
+		<string>Arizona </string>
+		<string>Nevada</string>
+		<string>New Mexico</string>
+		<string>Texas</string>
+		<string>Arizona</string>
+	</array>
+	<key>What is the official language of Brazil ?</key>
+	<array>
+		<string>Brazilian</string>
+		<string>French</string>
+		<string>Portuguese</string>
+		<string>Spanish</string>
+		<string>Portuguese</string>
+	</array>
+	<key>Rabat is the capital of which African country ?</key>
+	<array>
+		<string>Algeria</string>
+		<string>Libya</string>
+		<string>Morocco</string>
+		<string>Tunisia</string>
+		<string>Morocco</string>
+	</array>
+	<key>The remains of the ancient city of Babylon can be found in which modern country ?</key>
+	<array>
+		<string>Iran</string>
+		<string>Iraq</string>
+		<string>Israel</string>
+		<string>Jordan</string>
+		<string>Iraq</string>
+	</array>
+</dict>
+</plist>

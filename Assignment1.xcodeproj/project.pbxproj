@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56D6BA061B2F6AB400BBE521 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D6BA051B2F6AB400BBE521 /* Utility.swift */; };
+		56D7DA111B2EBDB300A03D63 /* QuestionAndAnswers.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56D7DA101B2EBDB300A03D63 /* QuestionAndAnswers.plist */; };
 		56DF6BF71B2DED7D00EFEEC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DF6BF61B2DED7D00EFEEC5 /* AppDelegate.swift */; };
 		56DF6BF91B2DED7D00EFEEC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DF6BF81B2DED7D00EFEEC5 /* ViewController.swift */; };
 		56DF6BFC1B2DED7D00EFEEC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56DF6BFA1B2DED7D00EFEEC5 /* Main.storyboard */; };
 		56DF6BFE1B2DED7D00EFEEC5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56DF6BFD1B2DED7D00EFEEC5 /* Images.xcassets */; };
 		56DF6C011B2DED7D00EFEEC5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56DF6BFF1B2DED7D00EFEEC5 /* LaunchScreen.xib */; };
 		56DF6C0D1B2DED7D00EFEEC5 /* Assignment1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DF6C0C1B2DED7D00EFEEC5 /* Assignment1Tests.swift */; };
+		56DF6C191B2DEF3400EFEEC5 /* QuizQuestionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56DF6C181B2DEF3400EFEEC5 /* QuizQuestionCell.xib */; };
+		56DF6C1B1B2DF64D00EFEEC5 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DF6C1A1B2DF64D00EFEEC5 /* CheckBox.swift */; };
+		56DF6C1F1B2DFE0A00EFEEC5 /* QuizQuestionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DF6C1E1B2DFE0A00EFEEC5 /* QuizQuestionCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		56D6BA051B2F6AB400BBE521 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		56D7DA101B2EBDB300A03D63 /* QuestionAndAnswers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = QuestionAndAnswers.plist; sourceTree = "<group>"; };
 		56DF6BF11B2DED7D00EFEEC5 /* Assignment1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assignment1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56DF6BF51B2DED7D00EFEEC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		56DF6BF61B2DED7D00EFEEC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +43,9 @@
 		56DF6C061B2DED7D00EFEEC5 /* Assignment1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Assignment1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56DF6C0B1B2DED7D00EFEEC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		56DF6C0C1B2DED7D00EFEEC5 /* Assignment1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment1Tests.swift; sourceTree = "<group>"; };
+		56DF6C181B2DEF3400EFEEC5 /* QuizQuestionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuizQuestionCell.xib; sourceTree = "<group>"; };
+		56DF6C1A1B2DF64D00EFEEC5 /* CheckBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		56DF6C1E1B2DFE0A00EFEEC5 /* QuizQuestionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizQuestionCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,10 +88,14 @@
 			isa = PBXGroup;
 			children = (
 				56DF6BF61B2DED7D00EFEEC5 /* AppDelegate.swift */,
+				56DF6C1A1B2DF64D00EFEEC5 /* CheckBox.swift */,
+				56DF6C1E1B2DFE0A00EFEEC5 /* QuizQuestionCell.swift */,
+				56D6BA051B2F6AB400BBE521 /* Utility.swift */,
 				56DF6BF81B2DED7D00EFEEC5 /* ViewController.swift */,
 				56DF6BFA1B2DED7D00EFEEC5 /* Main.storyboard */,
-				56DF6BFD1B2DED7D00EFEEC5 /* Images.xcassets */,
 				56DF6BFF1B2DED7D00EFEEC5 /* LaunchScreen.xib */,
+				56DF6C181B2DEF3400EFEEC5 /* QuizQuestionCell.xib */,
+				56DF6BFD1B2DED7D00EFEEC5 /* Images.xcassets */,
 				56DF6BF41B2DED7D00EFEEC5 /* Supporting Files */,
 			);
 			path = Assignment1;
@@ -91,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				56DF6BF51B2DED7D00EFEEC5 /* Info.plist */,
+				56D7DA101B2EBDB300A03D63 /* QuestionAndAnswers.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -192,8 +207,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56D7DA111B2EBDB300A03D63 /* QuestionAndAnswers.plist in Resources */,
 				56DF6BFC1B2DED7D00EFEEC5 /* Main.storyboard in Resources */,
 				56DF6C011B2DED7D00EFEEC5 /* LaunchScreen.xib in Resources */,
+				56DF6C191B2DEF3400EFEEC5 /* QuizQuestionCell.xib in Resources */,
 				56DF6BFE1B2DED7D00EFEEC5 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,7 +229,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56D6BA061B2F6AB400BBE521 /* Utility.swift in Sources */,
+				56DF6C1B1B2DF64D00EFEEC5 /* CheckBox.swift in Sources */,
 				56DF6BF91B2DED7D00EFEEC5 /* ViewController.swift in Sources */,
+				56DF6C1F1B2DFE0A00EFEEC5 /* QuizQuestionCell.swift in Sources */,
 				56DF6BF71B2DED7D00EFEEC5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +431,7 @@
 				56DF6C121B2DED7D00EFEEC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		56DF6C131B2DED7D00EFEEC5 /* Build configuration list for PBXNativeTarget "Assignment1Tests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +440,7 @@
 				56DF6C151B2DED7D00EFEEC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
